@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Live Streamer</title>
+	<link rel="stylesheet" type="text/css" href="style.css?v1">
+	<script src="jquery-3.2.1.min.js"></script>
+	<script>
+	var viewerHash = location.hash.substring(1);
+	var streamerUrl = "localhost:7578";
+	</script>
+	<script src="script.js?v12"></script>
+</head>
+<body>
+	<noscript>
+		<div style="width: 22em; position: absolute; top: 50%; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif; z-index: 10000">
+		Your web browser must have JavaScript enabled
+		in order for this application to display correctly.
+		</div>
+	</noscript>
+
+	<div id="container">
+		<div id="imageContainer"><canvas id="canvas" width="800" height="400"></canvas></div>
+
+		<div id="settings">
+		</div>
+		<div id="message"></div>
+		<div id="controls">
+			<div id="fps"></div>
+			<div id="debug"><input type="checkbox" id="debugBFrame"/></div>
+		</div>
+	</div>
+</body>
+</html>

@@ -83,3 +83,6 @@ GPLv3
 ## Author
 
 Kaj Toet
+
+## Keywords
+Video, Streaming, Websockets, Java, MJPEG, MPEG, PNG, GIF, latency

@@ -71,6 +71,10 @@ I think that's about right, but read the 'Quality.java' and 'RenderCallback' if 
 - Webbit websocket server
 - VLCj for VLC bindings
 
+## License
+
+GPLv3
+
 ## Author
 
 Kaj Toet

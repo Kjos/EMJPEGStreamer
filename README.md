@@ -32,6 +32,7 @@ There are some neat tricks:
 
 ## Benchmarks
 
+Only tested on Ubuntu for the Java server.
 Desktop PC: Core i5, GTX 970 GPU.
 Measurements: at 1920x1080x30fps (interlaced)
 
@@ -64,6 +65,11 @@ This isn't bad when the screen is still, for example when viewing a desktop. At 
     
 I think that's about right, but read the 'Quality.java' and 'RenderCallback' if you wan't to know exactly.
 - Interframes take no movement into account. This could decrease bandwidth further, but it was out of scope.
+
+## Used libs
+
+- Webbit websocket server
+- VLCj for VLC bindings
 
 ## Author
 

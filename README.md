@@ -66,6 +66,11 @@ This isn't bad when the screen is still, for example when viewing a desktop. At 
 I think that's about right, but read the 'Quality.java' and 'RenderCallback' if you wan't to know exactly.
 - Interframes take no movement into account. This could decrease bandwidth further, but it was out of scope.
 
+## Demo videos
+
+- https://youtu.be/TfEJRR4k_U8
+- https://youtu.be/Vg2I-vpU-O8
+
 ## Used libs
 
 - Webbit websocket server
